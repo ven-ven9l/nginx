@@ -178,3 +178,30 @@
 2017/10/05 11:22:07 [error] 7550#0: *34 open() "/home/Andrei_Bandarovich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 192.168.122.142, server: 192.168.122.142, request: "GET /admin HTTP/1.1", host: "192.168.122.142:8080"
 2017/10/05 11:23:00 [notice] 7630#0: signal process started
 2017/10/05 11:23:18 [error] 7631#0: *36 user "admin": password mismatch, client: 192.168.122.142, server: 192.168.122.142, request: "GET /admin/ HTTP/1.1", host: "192.168.122.142:8080"
+2017/10/05 11:43:22 [emerg] 8922#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:43:22 [emerg] 8922#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:43:22 [emerg] 8922#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:43:22 [emerg] 8922#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:43:22 [emerg] 8922#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:43:22 [emerg] 8922#0: still could not bind()
+2017/10/05 11:45:36 [emerg] 9188#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:45:36 [emerg] 9188#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:45:36 [emerg] 9188#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:45:36 [emerg] 9188#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:45:36 [emerg] 9188#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:45:36 [emerg] 9188#0: still could not bind()
+2017/10/05 11:47:40 [alert] 4548#0: unlink() "/home/Andrei_Bandarovich/nginx/nginx.pid" failed (2: No such file or directory)
+2017/10/05 12:04:12 [notice] 5513#0: signal process started
+2017/10/05 12:04:12 [error] 5513#0: open() "/home/Andrei_Bandarovich/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2017/10/05 12:04:20 [notice] 5524#0: signal process started
+2017/10/05 12:07:14 [emerg] 5885#0: open() "/home/Andrei_Bandarovich/nginx/conf/logs/backend.conf" failed (2: No such file or directory) in /home/Andrei_Bandarovich/nginx/conf/nginx.conf:8
+2017/10/05 12:07:35 [emerg] 5903#0: open() "/home/Andrei_Bandarovich/nginx/conf/logs/vhosts/backend.conf" failed (2: No such file or directory) in /home/Andrei_Bandarovich/nginx/conf/nginx.conf:8
+2017/10/05 12:08:13 [emerg] 5944#0: unknown directive "erver" in /home/Andrei_Bandarovich/nginx/conf/vhosts/backend.conf:1
+2017/10/05 12:08:51 [emerg] 5979#0: unknown directive "Server" in /home/Andrei_Bandarovich/nginx/conf/vhosts/backend.conf:1
+2017/10/05 12:09:07 [emerg] 6001#0: "server" directive is not allowed here in /home/Andrei_Bandarovich/nginx/conf/vhosts/backend.conf:1
+2017/10/05 12:10:34 [emerg] 6104#0: "http" directive is duplicate in /home/Andrei_Bandarovich/nginx/conf/nginx.conf:17
+2017/10/05 12:11:00 [emerg] 6137#0: "http" directive is duplicate in /home/Andrei_Bandarovich/nginx/conf/nginx.conf:17
+2017/10/05 12:12:01 [emerg] 6198#0: "http" directive is not allowed here in /home/Andrei_Bandarovich/nginx/conf/vhosts/backend.conf:1
+2017/10/05 12:12:22 [notice] 6222#0: signal process started
+2017/10/05 12:12:25 [error] 6223#0: *1 open() "/home/Andrei_Bandarovich/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.142, server: 192.168.122.142, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.142:8080"
+2017/10/05 12:12:25 [error] 6223#0: *1 open() "/home/Andrei_Bandarovich/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.142, server: 192.168.122.142, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.142:8080"
