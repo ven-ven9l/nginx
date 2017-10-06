@@ -205,3 +205,227 @@
 2017/10/05 12:12:22 [notice] 6222#0: signal process started
 2017/10/05 12:12:25 [error] 6223#0: *1 open() "/home/Andrei_Bandarovich/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.142, server: 192.168.122.142, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.142:8080"
 2017/10/05 12:12:25 [error] 6223#0: *1 open() "/home/Andrei_Bandarovich/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.142, server: 192.168.122.142, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.142:8080"
+2017/10/06 13:00:35 [notice] 30194#0: signal process started
+2017/10/06 13:06:02 [error] 30498#0: *1 open() "/home/Andrei_Bandarovich/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.171, server: 192.168.122.171, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.171:8080"
+2017/10/06 13:06:02 [error] 30498#0: *1 open() "/home/Andrei_Bandarovich/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.171, server: 192.168.122.171, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.171:8080"
+2017/10/06 14:26:58 [notice] 4819#0: signal process started
+2017/10/06 14:27:07 [error] 4820#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.142:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:27:07 [error] 4820#0: *3 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.83:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:27:12 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:27:13 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:27:13 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:27:13 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:27:52 [error] 4820#0: *3 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.83:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:27:52 [error] 4820#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.142:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:27:52 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:27:52 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:27:52 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:27:53 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:27:53 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:27:54 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:27:54 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:27:59 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:28:00 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:28:00 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:28:00 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:28:01 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:28:39 [error] 4820#0: *3 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.83:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:28:39 [error] 4820#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.142:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:28:41 [error] 4820#0: *3 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:30:18 [error] 4820#0: *10 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.83:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:30:18 [error] 4820#0: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.142:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:30:22 [notice] 5023#0: signal process started
+2017/10/06 14:30:23 [error] 5024#0: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.142:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:30:23 [error] 5024#0: *13 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.83:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:30:24 [error] 5024#0: *13 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:30:25 [error] 5024#0: *13 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:30:30 [error] 5024#0: *13 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:30:52 [error] 5024#0: *13 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb/pictures/01.jpg HTTP/1.1", upstream: "http://192.168.122.83:8000/lb/pictures/01.jpg", host: "192.168.122.171:8080"
+2017/10/06 14:30:52 [error] 5024#0: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb/pictures/01.jpg HTTP/1.1", upstream: "http://192.168.122.142:8000/lb/pictures/01.jpg", host: "192.168.122.171:8080"
+2017/10/06 14:32:16 [error] 5024#0: *18 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.83:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:32:16 [error] 5024#0: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.142:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:35:39 [error] 5024#0: *21 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.83:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:35:39 [error] 5024#0: *21 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.142:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:35:42 [error] 5024#0: *21 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://loadbalancer/lb", host: "192.168.122.171:8080"
+2017/10/06 14:35:52 [notice] 5995#0: signal process started
+2017/10/06 14:35:56 [error] 5996#0: *24 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.142:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:35:56 [error] 5996#0: *24 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /lb HTTP/1.1", upstream: "http://192.168.122.83:8000/lb", host: "192.168.122.171:8080"
+2017/10/06 14:38:41 [emerg] 6035#0: unexpected "}" in /home/Andrei_Bandarovich/nginx/conf/vhosts/backend.conf:13
+2017/10/06 14:39:06 [emerg] 6039#0: unexpected "}" in /home/Andrei_Bandarovich/nginx/conf/vhosts/backend.conf:13
+2017/10/06 14:39:17 [emerg] 6043#0: directive "proxy_pass" is not terminated by ";" in /home/Andrei_Bandarovich/nginx/conf/vhosts/backend.conf:18
+2017/10/06 14:39:27 [emerg] 6055#0: unexpected end of file, expecting "}" in /home/Andrei_Bandarovich/nginx/conf/vhosts/backend.conf:61
+2017/10/06 14:39:41 [notice] 6060#0: signal process started
+2017/10/06 14:39:59 [error] 6061#0: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:39:59 [error] 6061#0: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:39:59 [error] 6061#0: *27 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://loadbalancer/", host: "192.168.122.171:8080"
+2017/10/06 14:40:06 [error] 6061#0: *27 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://loadbalancer/", host: "192.168.122.171:8080"
+2017/10/06 14:40:07 [error] 6061#0: *27 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://loadbalancer/", host: "192.168.122.171:8080"
+2017/10/06 14:40:08 [error] 6061#0: *27 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://loadbalancer/", host: "192.168.122.171:8080"
+2017/10/06 14:40:39 [error] 6061#0: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:40:39 [error] 6061#0: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:40:40 [error] 6061#0: *27 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://loadbalancer/", host: "192.168.122.171:8080"
+2017/10/06 14:40:41 [error] 6061#0: *27 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://loadbalancer/", host: "192.168.122.171:8080"
+2017/10/06 14:40:41 [error] 6061#0: *27 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://loadbalancer/", host: "192.168.122.171:8080"
+2017/10/06 14:40:41 [error] 6061#0: *27 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://loadbalancer/", host: "192.168.122.171:8080"
+2017/10/06 14:40:43 [error] 6061#0: *27 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://loadbalancer/", host: "192.168.122.171:8080"
+2017/10/06 14:40:53 [error] 6061#0: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:40:53 [error] 6061#0: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:41:09 [error] 6061#0: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:41:09 [error] 6061#0: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:45:05 [error] 6061#0: *37 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:45:05 [error] 6061#0: *37 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:45:07 [notice] 6201#0: signal process started
+2017/10/06 14:45:08 [error] 6202#0: *40 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:45:08 [error] 6202#0: *40 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:45:08 [error] 6202#0: *40 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://loadbalancer/", host: "192.168.122.171:8080"
+2017/10/06 14:46:38 [error] 6202#0: *43 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:46:38 [error] 6202#0: *43 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:46:59 [error] 6202#0: *43 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:46:59 [error] 6202#0: *43 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:47:29 [notice] 6233#0: signal process started
+2017/10/06 14:47:30 [error] 6234#0: *48 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:47:30 [error] 6234#0: *48 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:47:30 [error] 6234#0: *48 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://loadbalancer/", host: "192.168.122.171:8080"
+2017/10/06 14:47:31 [error] 6234#0: *48 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://loadbalancer/", host: "192.168.122.171:8080"
+2017/10/06 14:47:31 [error] 6234#0: *48 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://loadbalancer/", host: "192.168.122.171:8080"
+2017/10/06 14:47:31 [error] 6234#0: *48 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://loadbalancer/", host: "192.168.122.171:8080"
+2017/10/06 14:47:31 [error] 6234#0: *48 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://loadbalancer/", host: "192.168.122.171:8080"
+2017/10/06 14:49:25 [notice] 6258#0: signal process started
+2017/10/06 14:49:27 [error] 6259#0: *51 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:49:27 [error] 6259#0: *51 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:49:27 [error] 6259#0: *51 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:49:27 [error] 6259#0: *51 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:49:28 [error] 6259#0: *51 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:49:28 [error] 6259#0: *51 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:49:28 [error] 6259#0: *51 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:49:28 [error] 6259#0: *51 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:49:28 [error] 6259#0: *51 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:49:29 [error] 6259#0: *51 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:50:20 [error] 6259#0: *51 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:50:20 [error] 6259#0: *51 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:50:20 [error] 6259#0: *51 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:50:21 [error] 6259#0: *51 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:50:21 [error] 6259#0: *51 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:50:21 [error] 6259#0: *51 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:58:09 [error] 6259#0: *56 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:58:09 [error] 6259#0: *56 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:58:11 [error] 6259#0: *56 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:58:15 [notice] 6459#0: signal process started
+2017/10/06 14:58:16 [error] 6460#0: *59 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:58:16 [error] 6460#0: *59 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:58:17 [error] 6460#0: *59 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:58:17 [error] 6460#0: *59 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:58:18 [error] 6460#0: *59 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:58:18 [error] 6460#0: *59 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:58:18 [error] 6460#0: *59 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:58:18 [error] 6460#0: *59 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:58:18 [error] 6460#0: *59 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:58:44 [notice] 6472#0: signal process started
+2017/10/06 14:58:47 [error] 6473#0: *62 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:58:47 [error] 6473#0: *62 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 14:58:47 [error] 6473#0: *62 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:58:47 [error] 6473#0: *62 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:58:48 [error] 6473#0: *62 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:58:48 [error] 6473#0: *62 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 14:58:48 [error] 6473#0: *62 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 15:03:43 [error] 3321#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.122.142:8000/favicon.ico", host: "192.168.122.171:8080"
+2017/10/06 15:03:43 [error] 3321#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.122.83:8000/favicon.ico", host: "192.168.122.171:8080"
+2017/10/06 15:03:45 [error] 3321#0: *1 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 15:07:32 [error] 3321#0: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.83, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 15:07:32 [error] 3321#0: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.83, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 15:07:32 [error] 3321#0: *4 no live upstreams while connecting to upstream, client: 192.168.122.83, server: 192.168.122.171, request: "GET /favicon.ico HTTP/1.1", upstream: "http://backend/favicon.ico", host: "192.168.122.171:8080"
+2017/10/06 15:07:32 [error] 3321#0: *4 no live upstreams while connecting to upstream, client: 192.168.122.83, server: 192.168.122.171, request: "GET /favicon.ico HTTP/1.1", upstream: "http://backend/favicon.ico", host: "192.168.122.171:8080"
+2017/10/06 15:11:07 [error] 3321#0: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 15:11:07 [error] 3321#0: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 15:12:15 [error] 3321#0: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 15:12:15 [error] 3321#0: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 15:12:19 [error] 3321#0: *10 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 15:13:36 [error] 3321#0: *13 directory index of "/home/Andrei_Bandarovich/nginx/html/resources/pictures/" is forbidden, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/ HTTP/1.1", host: "192.168.122.171:8080"
+2017/10/06 15:13:39 [error] 3321#0: *13 directory index of "/home/Andrei_Bandarovich/nginx/html/resources/pictures/" is forbidden, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/ HTTP/1.1", host: "192.168.122.171:8080"
+2017/10/06 15:13:47 [error] 3321#0: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /index.html HTTP/1.1", upstream: "http://192.168.122.83:8000/index.html", host: "192.168.122.171:8080"
+2017/10/06 15:13:47 [error] 3321#0: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /index.html HTTP/1.1", upstream: "http://192.168.122.142:8000/index.html", host: "192.168.122.171:8080"
+2017/10/06 15:14:31 [error] 3321#0: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 15:14:31 [error] 3321#0: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 15:14:41 [error] 3321#0: *18 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 15:14:41 [error] 3321#0: *18 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 15:14:41 [error] 3321#0: *18 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 15:14:42 [error] 3321#0: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.83:8000/", host: "192.168.122.171:8080"
+2017/10/06 15:14:42 [error] 3321#0: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://192.168.122.142:8000/", host: "192.168.122.171:8080"
+2017/10/06 15:14:42 [error] 3321#0: *18 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 15:14:42 [error] 3321#0: *18 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "192.168.122.171:8080"
+2017/10/06 15:16:00 [notice] 3723#0: signal process started
+2017/10/06 15:16:04 [error] 3724#0: *21 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.gif HTTP/1.1", upstream: "http://192.168.122.142:8000/pictures/01.gif", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:16:04 [error] 3724#0: *21 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.gif HTTP/1.1", upstream: "http://192.168.122.83:8000/pictures/01.gif", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:16:07 [error] 3724#0: *21 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://backend/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:16:09 [error] 3724#0: *21 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.gif HTTP/1.1", upstream: "http://backend/pictures/01.gif", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:22:17 [error] 3724#0: *26 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://192.168.122.83:8000/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:22:17 [error] 3724#0: *26 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://192.168.122.142:8000/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:22:20 [error] 3724#0: *26 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://backend/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:22:21 [error] 3724#0: *26 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://backend/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:22:22 [error] 3724#0: *26 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://backend/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:22:22 [error] 3724#0: *26 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://backend/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:22:22 [error] 3724#0: *26 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://backend/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:22:22 [error] 3724#0: *26 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://backend/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:22:23 [error] 3724#0: *26 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://backend/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:22:23 [error] 3724#0: *26 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://backend/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:22:23 [error] 3724#0: *26 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://backend/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:22:23 [error] 3724#0: *26 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://backend/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:22:23 [error] 3724#0: *26 no live upstreams while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://backend/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:22:32 [notice] 3885#0: signal process started
+2017/10/06 15:25:09 [error] 3886#0: *31 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://192.168.122.142:8000/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:25:09 [error] 3886#0: *31 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/01.jpg HTTP/1.1", upstream: "http://192.168.122.83:8000/pictures/01.jpg", host: "192.168.122.171:8080", referrer: "http://192.168.122.171:8080/"
+2017/10/06 15:25:16 [notice] 3997#0: signal process started
+2017/10/06 15:28:36 [notice] 4044#0: signal process started
+2017/10/06 15:48:48 [emerg] 4478#0: unknown directive "HTTPS" in /home/Andrei_Bandarovich/nginx/conf/nginx.conf:59
+2017/10/06 15:49:04 [notice] 4479#0: signal process started
+2017/10/06 15:49:04 [emerg] 3320#0: bind() to 0.0.0.0:443 failed (13: Permission denied)
+2017/10/06 15:50:05 [notice] 4575#0: signal process started
+2017/10/06 15:50:05 [emerg] 3320#0: bind() to 0.0.0.0:443 failed (13: Permission denied)
+2017/10/06 15:51:36 [notice] 4597#0: signal process started
+2017/10/06 15:51:36 [emerg] 3320#0: bind() to 0.0.0.0:443 failed (13: Permission denied)
+2017/10/06 15:58:43 [notice] 4774#0: signal process started
+2017/10/06 15:58:43 [emerg] 3320#0: bind() to 0.0.0.0:443 failed (13: Permission denied)
+2017/10/06 15:59:12 [notice] 4777#0: signal process started
+2017/10/06 15:59:12 [emerg] 3320#0: bind() to 0.0.0.0:443 failed (13: Permission denied)
+2017/10/06 15:59:53 [emerg] 4786#0: BIO_new_file("/home/Andrei_Bandarovich/nginx/conf/conf/server.crt") failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/home/Andrei_Bandarovich/nginx/conf/conf/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2017/10/06 16:00:09 [notice] 4874#0: signal process started
+2017/10/06 16:00:09 [emerg] 3320#0: bind() to 0.0.0.0:443 failed (13: Permission denied)
+2017/10/06 16:02:24 [emerg] 5048#0: PEM_read_bio_X509_AUX("/home/Andrei_Bandarovich/nginx/conf/server.csr") failed (SSL: error:0906D06C:PEM routines:PEM_read_bio:no start line:Expecting: TRUSTED CERTIFICATE)
+2017/10/06 16:02:42 [notice] 5060#0: signal process started
+2017/10/06 16:02:42 [emerg] 3320#0: bind() to 0.0.0.0:443 failed (13: Permission denied)
+2017/10/06 16:05:54 [notice] 5108#0: signal process started
+2017/10/06 16:05:54 [emerg] 3320#0: bind() to 0.0.0.0:443 failed (13: Permission denied)
+2017/10/06 16:08:44 [notice] 5138#0: signal process started
+2017/10/06 16:08:44 [emerg] 3320#0: bind() to 0.0.0.0:443 failed (13: Permission denied)
+2017/10/06 16:14:12 [notice] 5274#0: signal process started
+2017/10/06 16:14:12 [emerg] 3320#0: bind() to 0.0.0.0:443 failed (13: Permission denied)
+2017/10/06 16:17:19 [notice] 5322#0: signal process started
+2017/10/06 16:18:07 [notice] 5338#0: signal process started
+2017/10/06 16:18:07 [emerg] 3320#0: bind() to 0.0.0.0:443 failed (13: Permission denied)
+2017/10/06 16:26:34 [notice] 5570#0: signal process started
+2017/10/06 16:33:55 [notice] 5737#0: signal process started
+2017/10/06 16:35:05 [notice] 5749#0: signal process started
+2017/10/06 16:35:57 [notice] 5762#0: signal process started
+2017/10/06 16:37:13 [notice] 5774#0: signal process started
+2017/10/06 16:38:00 [notice] 5785#0: signal process started
+2017/10/06 16:38:07 [notice] 5787#0: signal process started
+2017/10/06 16:40:17 [notice] 5895#0: signal process started
+2017/10/06 16:41:02 [notice] 5907#0: signal process started
+2017/10/06 16:46:38 [notice] 5996#0: signal process started
+2017/10/06 16:51:28 [notice] 6224#0: signal process started
+2017/10/06 16:51:51 [emerg] 6239#0: unknown "server_name8443" variable
+2017/10/06 16:52:02 [emerg] 6243#0: invalid number of arguments in "return" directive in /home/Andrei_Bandarovich/nginx/conf/vhosts/backend.conf:3
+2017/10/06 16:52:53 [notice] 6258#0: signal process started
+2017/10/06 16:56:53 [notice] 6377#0: signal process started
+2017/10/06 16:59:49 [notice] 6417#0: signal process started
+2017/10/06 17:10:17 [error] 6418#0: *256 directory index of "/home/Andrei_Bandarovich/nginx/html/resources/pictures/" is forbidden, client: 192.168.122.171, server: 192.168.122.171, request: "GET /pictures/ HTTP/1.1", host: "192.168.122.171:8443"
+2017/10/06 17:13:05 [notice] 6951#0: signal process started
+2017/10/06 17:13:08 [error] 6952#0: *270 open() "/home/Andrei_Bandarovich/nginx/html/d" failed (2: No such file or directory), client: 192.168.122.171, server: 192.168.122.171, request: "GET /d HTTP/1.1", host: "192.168.122.171:8443"
+2017/10/06 17:14:11 [notice] 6967#0: signal process started
+2017/10/06 17:16:35 [notice] 7013#0: signal process started
+2017/10/06 17:20:47 [notice] 7149#0: signal process started
+2017/10/06 17:28:01 [notice] 7292#0: signal process started
+2017/10/06 17:28:21 [notice] 7299#0: signal process started
+2017/10/06 17:31:31 [notice] 7416#0: signal process started
+2017/10/06 17:36:24 [emerg] 7488#0: invalid number of arguments in "include" directive in /home/Andrei_Bandarovich/nginx/conf/nginx.conf:29
+2017/10/06 17:37:13 [notice] 7506#0: signal process started
