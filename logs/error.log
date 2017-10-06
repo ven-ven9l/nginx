@@ -429,3 +429,13 @@
 2017/10/06 17:31:31 [notice] 7416#0: signal process started
 2017/10/06 17:36:24 [emerg] 7488#0: invalid number of arguments in "include" directive in /home/Andrei_Bandarovich/nginx/conf/nginx.conf:29
 2017/10/06 17:37:13 [notice] 7506#0: signal process started
+2017/10/06 18:21:08 [notice] 8682#0: signal process started
+2017/10/06 18:21:08 [emerg] 3320#0: bind() to 192.168.122.171:8080 failed (98: Address already in use)
+2017/10/06 18:21:08 [emerg] 3320#0: bind() to 192.168.122.171:8080 failed (98: Address already in use)
+2017/10/06 18:21:08 [emerg] 3320#0: bind() to 192.168.122.171:8080 failed (98: Address already in use)
+2017/10/06 18:21:08 [emerg] 3320#0: bind() to 192.168.122.171:8080 failed (98: Address already in use)
+2017/10/06 18:21:08 [emerg] 3320#0: bind() to 192.168.122.171:8080 failed (98: Address already in use)
+2017/10/06 18:21:08 [emerg] 3320#0: still could not bind()
+2017/10/06 18:21:30 [notice] 8688#0: signal process started
+2017/10/06 18:28:42 [notice] 8773#0: signal process started
+2017/10/06 18:30:11 [notice] 8878#0: signal process started
